@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+   /* SOLUCION A IMAGEN */
+   background-image: url(/DesafiosM5/Ejercicio_1_2_3/images/fondo.png);
+   background-position: bottom right;
+   background-repeat: no-repeat;
+   height: 30%;
+   padding: 10px;
+   background-size: 550px;
 }
 * {
   box-sizing: border-box;

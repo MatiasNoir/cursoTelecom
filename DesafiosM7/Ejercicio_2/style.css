@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@font-face {
+  font-family: fuente;
+
+  src: url(/DesafiosM7/Ejercicio_2/fonts/coolvetica.otf);
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 25%;
+}
+h1 {
+  margin-left: 1%;
+  font-family: fuente;
+  font-size: 48px;
+  color: #0a2ff1;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0a2ff1;
+}
+
+section {
+  text-align: center;
+  background-color: #eff2ff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  width: 60%;
+  padding: 2em;
+}
+
+section div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+section img {
+  width: 15%;
+}
+p {
+  font-size: 28px;
+  color: #04146c;
+  font-weight: 300;
+}
+
+.images {
+  font-size: 21px;
+  font-weight: 400;
+}
+.images img {
+  width: 10%;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+#img_identificadores {
+  width: 20%;
+}

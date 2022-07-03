@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  /* En el ejercicio decia que el div tenia que tener 23px, pero queda mal, asi que supuse que era % */
+  border: 1px solid;
+}
+h1 {
+  color: #04146c;
+  font-weight: 900;
+  font-size: 54px;
+  border-bottom: 2px solid;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  background-color: #0a2ff1;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+  margin-top: auto;
+  text-align: center;
+}
+img {
+  border-style: none;
+}

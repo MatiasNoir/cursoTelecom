@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h2>Calculadora de Punto de Equilibrio</h2>
+    <h4>El Punto de Equilibrio se calcula como: <br>
+    Costo Fijo / ( Precio de Venta - Costo Variable)</h5>
+    <br>
+    <form>
+      <input type="text" id="c_fijo" placeholder="Ingrese el costo fijo" />
+      <br />
+      <input
+        type="text"
+        id="p_venta"
+        placeholder="Ingrese el precio de venta"
+      />
+      <br />
+      <input
+        type="text"
+        id="c_variable"
+        placeholder="Ingrese el costo variable"
+      />
+      <br />
+      <br />
+      <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+    <br>
+    <div id="resultado"></div>
+    <script src="./Ejercicio1.js"></script>
+  </body>
+</html>

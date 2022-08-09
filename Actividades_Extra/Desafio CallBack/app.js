@@ -18,7 +18,6 @@ function gastoConIva(num) {
 //prueba
 gastoConIva(200);
 
-
 function mapeo(vector) {
     var nuevoVector = [];
     if (Array.isArray(vector) === true) {

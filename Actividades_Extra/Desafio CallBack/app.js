@@ -30,24 +30,8 @@ function mapeo(vector) {
 }
 //No supe como devolver el array de entrada como matriz, como pide el ejercicio, creo que no lo estoy interpretando bien.
 
-
 //Encontre este ejercicio que intenta resolver algo similar en stackoverflow, pero lo que hace es: ingresa un vector, o varios, y los devuelve a cada
 // elementos de dicho vector como matriz columna de tamaño 1, lo dejo pq me parecio interesante!
-vector = [[[0, 1, 2]], [[5, 10, 15]]];
-
-function convertirVector(vector) {
-    let matriz = [];
-    for (let i = 0; i < vector.length; i++) {
-        if (Array.isArray(vector[i])) {
-            matriz = matriz.concat(convertirVector(vector[i]));
-        } else {
-            matriz.push([vector[i]]);
-        }
-    }
-    return matriz;
-}
-
-console.log(JSON.stringify(convertirVector(vector)))
 
 //https://stackoverflow.com/questions/49320668/how-to-convert-single-dimension-array-into-a-column-vector-in-js
 

@@ -1,0 +1,6 @@
+
+//LO HICE "OFFLINE" en el sentido que: descargue la data de mockaaro, y use localmente.
+
+//Pero acabo de descubrir: https://mockaroo.com/help/json
+asi que voy a intentar transformar mi data base, y ver si la puedo llamar desde el link que me dan ahí 
+(NO LO PUDE HACER FUNCIONAR!!, la idea seria llamar a la data que tengo en mockaaro desde un link, y conectarla en el package.json)

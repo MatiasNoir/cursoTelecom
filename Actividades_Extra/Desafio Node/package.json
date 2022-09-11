@@ -1,0 +1,17 @@
+{
+  "name": "desafio_node",
+  "version": "1.0.0",
+  "description": "Desafio de Node JS del curso Digitalers de Telecom/EducacionIT",
+  "main": "node.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "start": "node node.js",
+    "dev": "nodemon node.js"
+  },
+  "author": "Matías Noir",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.19"
+  }
+}

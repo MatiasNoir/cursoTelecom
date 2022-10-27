@@ -9,12 +9,8 @@ Agregandole funcionalidad extra, y aplicando estilo
 
 Por ultimo, realizar un deploy del proyecto en algun hosting/servidor.
 
--Ideas:
-Compañeros del curso tuvieron la idea de agregarle comentarios, likes, seguidores,
-login (usuarios), etc al proyecto base.
-
 Yo decidi crear un sitio web, donde vos puedas crear notas, al
-estilo de un "Task App" tradicional.
+estilo de un "Task/Notes App" tradicional.
 
 Flujo del programa/web:
 -Creas un usuario para acceder a la web (creacion de usuario y contraseña)

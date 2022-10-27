@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------------------------
+	ESTE .TXT ES TEMPORAL, SERÁ ELIMINADO CUANDO EL PROYECTO ESTE FINALIZADO
+			LO UTILIZO COMO TRACK DE IDEAS, AVANCES, ETC
+--------------------------------------------------------------------------------------------------
 Consignas del Proyecto Final:
 Usar las operaciones basicas CRUD brindadas en el curso
 C: Create -> Post
